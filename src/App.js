@@ -57,8 +57,8 @@ function App() {
           </ul> */}
 
           <Routes>
-            <Route exact path="/home" element={<TextForm heading="Text Analyzer" mode={mode} ShowAlert={ShowAlert} />} />
-            <Route exact path="/about" element={<About />} />
+            <Route  path="/home" element={<TextForm heading="Text Analyzer" mode={mode} ShowAlert={ShowAlert} />} />
+            <Route  path="/about" element={<About />} />
           </Routes>
         </div>
       </Router >
